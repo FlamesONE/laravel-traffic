@@ -1,0 +1,24 @@
+#traffic-light .light {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#traffic-light .green.active {
+    background-color: green;
+}
+
+#traffic-light .yellow.active {
+    background-color: yellow;
+}
+
+#traffic-light .red.active {
+    background-color: red;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
